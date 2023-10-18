@@ -51,12 +51,12 @@ const Staking = () => {
             </div>
           </div>
 
-          <form className="w-full max-w-md rounded-lg border border-gray-300 bg-white bg-opacity-30 p-5 sm:p-10 m-8 sm:max-w-md md:max-w-lg lg:max-w-xl">
+          <form className=" rounded-lg border border-gray-300 bg-white bg-opacity-30 p-5 sm:p-10 m-8 sm:max-w-md md:max-w-1/2 lg:max-w-full">
             <h1 className="text-xl font-bold text-gray-900 text-center m-5 dark:text-white">
               Selected Token
             </h1>
 
-            <div className="mb-4">
+            <div className="mb-4 w-4/5">
               <div className="flex flex-wrap justify-between">
                 <button
                   type="button"
@@ -91,53 +91,47 @@ const Staking = () => {
               </div>
             </div>
 
-            <div className="grid grid-flow-row">
-              <div className="w-1/4">
-                <label className=" text-white">Token</label>
-              </div>
-              <div className="w-3/4">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+              <div className="">
+                <label className="text-white">Token</label>
                 <input
                   type="text"
                   placeholder="Token name"
                   className="w-full px-4 py-2 border rounded-md shadow-sm focus:outline-none focus:ring focus:ring-opacity-50 focus:border-blue-500"
                 />
               </div>
-              <div className="w-1/4">
-                <label className=" text-white">Duration</label>
-              </div>
-              <div className="w-3/4">
+              <div className="">
+                <label className="text-white">Duration</label>
                 <input
                   type="text"
                   placeholder="Duration"
                   className="w-full px-4 py-2 border rounded-md shadow-sm focus:outline-none focus:ring focus:ring-opacity-50 focus:border-blue-500"
                 />
               </div>
-              <div className="w-1/4">
-                <label className=" text-white">Amount</label>
-              </div>
-              <div className="w-3/4">
+              <div className="">
+                <label className="text-white">Amount</label>
                 <input
                   type="text"
                   placeholder="Amount"
                   className="w-full px-4 py-2 border rounded-md shadow-sm focus:outline-none focus:ring focus:ring-opacity-50 focus:border-blue-500"
                 />
               </div>
-              <div className="w-1/4">
-                <label className=" text-white">Amount after maturity</label>
-              </div>
-              <div className="w-3/4">
+              <div className="">
+                <label className="text-white">Amount after maturity</label>
                 <input
                   type="text"
                   placeholder="Calculate rewards"
                   className="w-full px-4 py-2 border rounded-md shadow-sm focus:outline-none focus:ring focus:ring-opacity-50 focus:border-blue-500"
                 />
+                <div className="mt-4 flex items-center justify-center">
+                  <button
+                    type="submit"
+                    className="w-full py-2 px-4 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:ring focus:ring-opacity-50 focus:ring-blue-500"
+                  >
+                    Stake now!
+                  </button>
+                </div>
               </div>
-              <button
-                type="submit"
-                className="w-full py-2 px-4 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:ring focus:ring-opacity-50 focus:ring-blue-500"
-              >
-                Stake now!
-              </button>
             </div>
           </form>
         </div>
