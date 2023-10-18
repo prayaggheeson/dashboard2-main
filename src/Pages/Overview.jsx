@@ -41,18 +41,20 @@ const Overview = () => {
 
   return (
     <div className="mx-auto">
-      <div className="mt-5 flex flex-wrap justify-around">
+      
+      <div className="mt-5 flex border gap-5 border-yellow-300  flex-wrap ">
         {cardData.map((card, index) => (
           <Card key={index} {...card} />
         ))}
       </div>
 
-      <div className="grid gap-3 p-14 grid-cols-1 md:grid-cols-5 overflow-auto">
+      
+      <div className="grid p-14 grid-cols-1 md:grid-cols-5 overflow-auto">
         <div className="md:col-span-4">
           <Chart />
         </div>
         <div className="md:col-span-1">
-          <div className="grid pb-5 pr-5 grid-rows-1 md:grid-rows-3 gap-2">
+          <div className="grid  grid-rows-1 border border-black md:grid-rows-3 gap-5">
             {cards.map((card, index) => (
               <SmallCards
                 key={index}

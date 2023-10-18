@@ -49,7 +49,7 @@ const Chart = () => {
 
   return (
     <>
-      <div className="m-5 overflow-hidden ">
+      <div className="m-5 max-w-sm ">
         <AreaChart
           width={1350}  
           height={400} 

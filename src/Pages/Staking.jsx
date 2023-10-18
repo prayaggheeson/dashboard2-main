@@ -27,10 +27,10 @@ const Staking = () => {
           <div className="w-full md:w-1/2">
             <div className="bg-white bg-opacity-10 border border-gray-200 rounded-lg shadow p-5 dark:bg-gray-800 dark:border-gray-700">
               <div className="text-center">
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white">
                   Looks like you are not connected to a wallet
                 </h5>
-                <p className="mb-3 font-normal text-black dark:text-gray-400">
+                <p className="mb-3 font-normal text-slate-500 dark:text-gray-400">
                   Connect your wallet to access this section.
                 </p>
                 <a
@@ -60,31 +60,31 @@ const Staking = () => {
               <div className="flex flex-wrap justify-between">
                 <button
                   type="button"
-                  className="px-4 py-2 text-sm font-medium text-gray-900 bg-transparent border border-gray-900 rounded-lg hover:bg-gray-900 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700"
+                  className="px-4 py-2 text-sm font-medium text-white bg-violet-900 border border-gray-900 rounded-full hover:bg-gray-900 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700"
                 >
                   All
                 </button>
                 <button
                   type="button"
-                  className="px-4 py-2 text-sm font-medium text-gray-900 bg-transparent border rounded-lg border-gray-900 hover:bg-gray-900 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700"
+                  className="px-4 py-2 text-sm font-medium text-white bg-violet-900 border rounded-full border-gray-900 hover:bg-gray-900 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700"
                 >
                   3 month
                 </button>
                 <button
                   type="button"
-                  className="px-4 py-2 text-sm font-medium text-gray-900 bg-transparent border rounded-lg border-gray-900 hover:bg-gray-900 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700"
+                  className="px-4 py-2 text-sm font-medium text-white bg-violet-900 border rounded-full border-gray-900 hover:bg-gray-900 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700"
                 >
                   6 month
                 </button>
                 <button
                   type="button"
-                  className="px-4 py-2 text-sm font-medium text-gray-900 bg-transparent border rounded-lg border-gray-900 hover:bg-gray-900 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700"
+                  className="px-4 py-2 text-sm font-medium text-white bg-violet-900 border rounded-full border-gray-900 hover:bg-gray-900 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700"
                 >
                   9 month
                 </button>
                 <button
                   type="button"
-                  className="px-4 py-2 text-sm font-medium text-gray-900 bg-transparent border rounded-lg border-gray-900 hover:bg-gray-900 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700"
+                  className="px-4 py-2 text-sm font-medium text-white bg-violet-900 border rounded-full border-gray-900 hover:bg-gray-900 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700"
                 >
                   12 month
                 </button>
