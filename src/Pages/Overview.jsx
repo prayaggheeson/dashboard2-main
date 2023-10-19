@@ -54,7 +54,7 @@ const Overview = () => {
           <Chart />
         </div>
         <div className="md:col-span-1">
-          <div className="grid  grid-rows-1 border border-black md:grid-rows-3 gap-5">
+          <div className="grid  grid-rows-1 border sm:w-full border-black md:grid-rows-3 gap-5">
             {cards.map((card, index) => (
               <SmallCards
                 key={index}

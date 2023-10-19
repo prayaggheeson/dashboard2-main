@@ -123,15 +123,16 @@ const Staking = () => {
                   placeholder="Calculate rewards"
                   className="w-full px-4 py-2 border rounded-md shadow-sm focus:outline-none focus:ring focus:ring-opacity-50 focus:border-blue-500"
                 />
-                <div className="mt-4 flex items-center justify-center">
+                
+              </div>
+              <div className="mt-4 md:col-span-2 lg:col-span-4 flex justify-center">
                   <button
                     type="submit"
-                    className="w-full py-2 px-4 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:ring focus:ring-opacity-50 focus:ring-blue-500"
+                    className=" py-2 px-4 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:ring focus:ring-opacity-50 focus:ring-blue-500"
                   >
                     Stake now!
                   </button>
                 </div>
-              </div>
             </div>
           </form>
         </div>

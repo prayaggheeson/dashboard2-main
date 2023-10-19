@@ -29,7 +29,7 @@ const UserDashboard = () => {
     <>
       <div className="min-h-screen flex flex-col sm:py-3 items-center">
         
-          <div className="xl:flex  justify-center gap-5 py-5">
+          <div className="xl:flex sm:flex-row  border border-white gap-5 py-5">
             {cardData.map((card, index) => (
               <Card key={index} {...card} />
             ))}
